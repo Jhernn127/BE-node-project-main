@@ -11,7 +11,7 @@ datasource db {
 }
 
 //modify here for my site
-model vehicle_maintenance{
+model Vehicle{
   vehicleId   String     @id @default(uuid())
   make        String     
   model       String  
