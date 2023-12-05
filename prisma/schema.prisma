@@ -13,10 +13,10 @@ datasource db {
 //modify here for my site
 model vehicle_maintenance{
   vehicleId   String     @id @default(uuid())
-  model         String
-  make        String     @unique
-  image        String
-  quote        String?
-  createdAt    DateTime   @default(now())
-  updatedAt    DateTime   @updatedAt
+  make        String     
+  model       String  
+  year        String  
+  image       String
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
 }
