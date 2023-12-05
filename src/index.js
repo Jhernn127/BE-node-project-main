@@ -12,7 +12,7 @@ import logger from './utils/logger'
 import router from './routes'
 import { notFound, errorHandler} from './utils/errors'
 
-const port = parseInt(process.env.PORT, 10) || 3000
+const port = parseInt(process.env.PORT, 10) || 7000
 
 const app = express()
 
