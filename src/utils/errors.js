@@ -11,6 +11,8 @@ export const notFound = (req, res, next) => {
 }
  
 // eslint-disable-next-line no-unused-vars
+// eslint-disable-next-line no-unused-vars
+// eslint-disable-next-line no-unused-vars
 
 export const errorHandler = (error, req, res, next) => {
 
