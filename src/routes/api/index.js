@@ -4,7 +4,7 @@ import basicAuth from 'express-basic-auth'
 import persons from './persons'
 import companies from './companies'
 import departments from './departments'
-import employees from './employees'
+import vehicles from './vehicles'
 
 const router = Router()
 
@@ -19,9 +19,7 @@ router.get('/api', (req, res) => {
     res.send({ msg: 'Inside API Endpoints' })
 })
 
-router.use('/persons', persons)
-router.use('/companies', companies)
-router.use('/departments', departments)
-router.use('/employees', employees)
+
+router.use('/vehicles', vehicles)
 
 export default router

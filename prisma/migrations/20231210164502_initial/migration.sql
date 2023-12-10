@@ -1,5 +1,5 @@
 -- CreateTable
-CREATE TABLE "Vehicles" (
+CREATE TABLE "Vehicle" (
     "vehicleId" TEXT NOT NULL,
     "make" TEXT NOT NULL,
     "model" TEXT NOT NULL,
@@ -9,5 +9,5 @@ CREATE TABLE "Vehicles" (
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
 
-    CONSTRAINT "Vehicles_pkey" PRIMARY KEY ("vehicleId")
+    CONSTRAINT "Vehicle_pkey" PRIMARY KEY ("vehicleId")
 );
